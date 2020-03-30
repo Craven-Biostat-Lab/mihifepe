@@ -2,4 +2,4 @@
 
 __author__ = """Akshay Sood"""
 __email__ = "sood.iitd@gmail.com"
-__version__ = "0.2.1"
+__version__ = "0.2.2"

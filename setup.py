@@ -48,6 +48,6 @@ setup(
     packages=find_packages(),
     python_requires=">= 3.5",
     url="https://github.com/Craven-Biostat-Lab/mihifepe",
-    version="0.2.1",
+    version="0.2.2",
     zip_safe=True,
 )
