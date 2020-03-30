@@ -341,7 +341,7 @@ def write_data(args, data, targets):
     Datasets:
         /record_ids             (List of record identifiers (strings) of length M = number of records/instances)
         /targets                (vector of target values (regression/classification outputs) of length M)
-        /static_data            (matrix of static data of size M x L)
+        /static                 (matrix of static data of size M x L)
         /temporal/<record_id>   (One dataset per record_id) (List (of variable length V) of vectors (of fixed length W))
     """
     data_filename = "%s/%s" % (args.output_dir, "data.hdf5")
